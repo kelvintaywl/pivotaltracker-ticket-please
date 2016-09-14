@@ -14,7 +14,7 @@
    */
   var branchSpanElem = document.querySelector('span.current-branch.head-ref > span.css-truncate-target');
   var pivotalTicketID = parseInt(branchSpanElem.innerHTML.split("-")[0], 10);
-  var pivotalLink = "https://pivotaltracker.com/story/show/" + pivotalTicketID;
+  var pivotalLink = "https://www.pivotaltracker.com/story/show/" + pivotalTicketID;
 
   var desc = document.querySelector('textarea[name="issue[body]"]');
   desc.value = "story: " + pivotalLink + "\n\n" + desc.innerHTML;
