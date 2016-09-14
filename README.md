@@ -1,12 +1,14 @@
-# PivotalTracker ticket please
+# PivotalTracker ticket, please!
 
-This Chrome extension adds the PivotalTracker ticket link (URL) into the top
+This Chrome extension adds the [PivotalTracker](https://pivotaltracker.com) ticket link (URL) into the top
 of your GitHub pull request description smartly.
 
 ## How to use
 
 Install this chrome extension and click on the extension's button when writing
 the pull request description on GitHub and watch the magic happens!
+
+![PivotalTracker ticket link automagically added!](screenshot.png)
 
 ## How It Works
 
